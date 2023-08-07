@@ -2,6 +2,48 @@
     margin: 0;
     padding: 0;
 }
+
+/* navigation code start  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;   
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+/* navigation code finished  */
+
+
+/* article section code start  */
+
 #article-container{
     width: 1100px;
     margin: 0 auto;
@@ -49,5 +91,6 @@
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
-
 }
+
+/* article section code finished  */
